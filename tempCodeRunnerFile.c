@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+   
     int age;
 
     printf("\nEnter age:");
@@ -11,3 +16,6 @@
     else{
         printf("Not quite old enough for a drink.");
     }
+
+    return 0;
+}
